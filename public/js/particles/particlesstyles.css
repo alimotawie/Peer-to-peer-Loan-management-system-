@@ -1,0 +1,139 @@
+
+/*********************/
+/*    04. Header     */
+/*********************/
+/* Particles.js Container */
+canvas {
+	display: block;
+	vertical-align: bottom;
+}
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 750px;
+	background-color: rgba(0, 0, 0, 0.86);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+/* end of particles.js container */
+
+.header-stellar-background {
+	position: relative;
+	text-align: center;
+}
+
+.header-stellar-background .header-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 750px;
+	padding-top: 1.5rem;
+	padding-top: 1.5rem;
+}
+
+.header-stellar-background .header-h1 {
+	margin-bottom: 1.25rem;
+}
+
+.header-stellar-background .under-heading {
+	margin-bottom: 2.25rem;
+	font: 400 1.125rem/1.75rem "Open Sans", sans-serif;
+}
+
+
+
+
+/*****************************/
+/*     19. Media Queries     */
+/*****************************/	
+/* Min-width width 768px */
+@media (min-width: 768px)	{
+
+
+	#particles-js {
+		height: 100%;
+	}
+	
+	.header-stellar-background .header-content {
+		height: 100vh;
+	}
+
+	.header-stellar-background .form-control-input,
+	.header-stellar-background .form-control-select,
+	.header-stellar-background .form-control-submit-button {
+		width: 31.875rem;
+	}
+
+	.accordion #detailsAccordion {
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.accordion .accordion-title {
+		width: 90%;
+	}
+
+
+}
+
+
+/* Min-width width 992px */
+@media (min-width: 992px) {
+
+	.header-stellar-background .header-content {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	.header-stellar-background .form-group {
+		display: inline-block;
+	}
+	
+	.header-stellar-background .form-control-input,
+	.header-stellar-background .form-control-select,
+	.header-stellar-background .form-control-submit-button {
+		width: 13rem;
+		margin-right: 0.125rem;
+		margin-left: 0.125rem;
+	}
+
+	.header-stellar-background .form-control-submit-button {
+		margin-top: 5px;
+	}
+
+	.header-stellar-background .help-block.with-errors,
+	.header-stellar-background .form-message {
+		position: absolute;
+	}
+
+	.header-stellar-background .help-block.with-errors {
+		margin-left: 10px;
+	}
+
+	.header-stellar-background .form-message {
+		right: 0;
+		left: 0;
+		bottom: -1rem;
+	}
+
+}
+
+
+/* Min-width width 1200px */
+@media (min-width: 1200px) {
+
+	.header-stellar-background {
+		background-position: bottom;
+	}
+
+	.header-stellar-background .form-control-input,
+	.header-stellar-background .form-control-select,
+	.header-stellar-background .form-control-submit-button {
+		margin-right: 0.25rem;
+		margin-left: 0.25rem;
+	}
+
+}
